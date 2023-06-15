@@ -5,14 +5,3 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Deploy react app to github pages
-      uses: J-angelm/deploy-react-to-ghpages@v1.0.0
