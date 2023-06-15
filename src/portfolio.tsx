@@ -1,15 +1,28 @@
 import emoji from 'react-easy-emoji';
 
+const introductionText: string = `mi nombre es Jorge Angel, soy Ingeniero Computacional radicado en la fascinante Ciudad de México. Con experiencia en desarrollo de aplicaciones web java para IBM y una sólida formación en programación y tecnología, he estado explorando el mundo web desde los 13 años, tiempo en el que pasaba mi tiempo construyendo foros para clanes del video juego *Age of Empires III*.
+
+Además de mi pasión por la tecnología, tengo una vida llena de intereses diversos. La música, la danza y el cine son algunas de mis grandes pasiones. También disfruto explorar las artes, sumergirme en la historia, descubrir nuevas ramas de la ciencia y explorar los intrincados caminos de las matemáticas y la filosofía.
+
+Fuera del ámbito profesional, he dedicado años a la danza folklórica mexicana y he desarrollado habilidades en tocar la guitarra y cantar (aunque principalmente lo hago en mi tiempo libre). Además, mi mente siempre está bullendo de ideas innovadoras que espero poder convertir en realidad.
+
+Como persona, me considero resiliente, transparente, creativo, analítico y visionario. Estas cualidades me ayudan a enfrentar desafíos con una mentalidad proactiva y encontrar soluciones innovadoras en mi vida cotidiana.
+
+Este blog es mi espacio personal para compartir mis experiencias, conocimientos y reflexiones. Aquí encontrarás una mezcla de artículos sobre tecnología, música, cine, historia y mucho más. Mi objetivo es entretener y, espero, inspirar a otros con mis publicaciones.
+
+¡Gracias por unirte a este viaje! Espero que disfrutes del contenido que tengo preparado y que nuestras experiencias se entrelacen en este emocionante mundo virtual. ¡Bienvenidos a mi blog personal!`;
+
+export default introductionText;
+
 export const greeting = {
-	username: 'Username',
-	title: 'Hello I\'m Username',
-	subTitle: emoji("subtitle ❤"),
-	role: "Your role",
-	resumeLink: "Your resume link... google drive or something else",
+	username: 'j-angelm',
+	title: '¡hola!',
+	body: introductionText ,
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
 };
+
 
 export const socialMediaLinks = {
 	// IMPORTANT

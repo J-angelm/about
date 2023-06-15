@@ -33,38 +33,23 @@ function Header() {
 				<ul className="nav-menu" id="toggle-nav">
 					{skills.view && <li className="nav-list">
 						<a href="#skills" onClick={onClickMenu}>
-							Skills
+							acerca de
 						</a>
 					</li>}
 					{experience.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#experience">
-							Experience
+							proyectos
 						</a>
 					</li>}
 					{openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#opensource">
-							Open Source
+							contacto
 						</a>
 					</li>}
 					{projects.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#project">
-							Projects
-						</a>
-					</li>}
-					{achievements.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#achievement">
-							Achievements
-						</a>
-					</li>}
-					{blogs.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#blog">
-							Blogs
-						</a>
-					</li>}
-					{contactInfo.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#contact">
-							Contact Me
-						</a>
+						<button className='btn'>
+							CV
+						</button>
 					</li>}
 				</ul>
 
